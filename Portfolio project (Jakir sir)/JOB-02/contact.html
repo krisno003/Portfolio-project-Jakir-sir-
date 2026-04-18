@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | Portfolio</title>
+    <meta name="title" content="Krisno Chandrow | Full-Stack Developer Portfolio">
+    <meta name="description"
+        content="Professional portfolio of Krisno Chandrow Bormon, a Full-Stack Developer specializing in modern web solutions, HTML5, CSS3, and JavaScript.">
+    <meta name="keywords"
+        content="Full-Stack Developer, Web Design Bangladesh, Krisno Chandrow, Portfolio, HTML CSS JavaScript, Diploma Engineer">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourdomain.com/">
+    <meta property="og:title" content="Krisno Chandrow | Full-Stack Developer">
+    <meta property="og:description" content="Showcasing 50+ successful web projects and professional digital services.">
+    <meta property="og:image" content="images/meta-thumbnail.jpg">
+
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://unpkg.com" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html">
+                    <div class="logo">KRISNO<span>.</span></div>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="contact-main container">
+        <div class="contact-wrapper">
+
+            <div class="contact-info reveal">
+                <h3>Contact Information</h3>
+                <p>Feel free to reach out via any of these channels. I usually respond within 24 hours.</p>
+
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>krisno.dev@example.com</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+880 1866-137929</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Location</h4>
+                        <p>Dhaka, Bangladesh</p>
+                    </div>
+                </div>
+
+                <div class="social-links-contact">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+
+            <div class="contact-form-container reveal">
+                <form id="contactForm">
+                    <div class="input-group">
+                        <label>Your Name</label>
+                        <input type="text" id="userName" placeholder="Krisno Bormon" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Your Email</label>
+                        <input type="email" id="userEmail" placeholder="example@mail.com" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Message</label>
+                        <textarea id="userMessage" rows="5" placeholder="Tell me about your project..."
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn-outline">Send Message <i class="fas fa-paper-plane"></i></button>
+                </form>
+                <div id="formStatus"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="main-footer">
+
+        <div class="container footer-grid">
+            <div class="footer-brand reveal">
+                <div class="logo">PORTFOLIO<span>.</span></div>
+                <p>Creating modern, high-performance web experiences with clean code and creative design.</p>
+                <div class="social-icons">
+                    <a href="#" id="facebook-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" id="github-link"><i class="fab fa-github"></i></a>
+                    <a href="#" id="linkedin-link"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links reveal">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact reveal">
+                <h4>Contact</h4>
+                <p><i class="fas fa-envelope"></i> krisno.dev@example.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Dhaka, Bangladesh</p>
+                <p><i class="fas fa-graduation-cap"></i> Diploma in Engineering</p>
+                <p><i class="fas fa-phone"></i> +880 1866-137929</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Krisno Chandrow Bormon | Built with HTML, CSS & JS</p>
+                <button id="backToTop" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+            </div>
+        </div>
+    </footer>
+
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+    <script src="JS/script.js"></script>
+    <script src="https://googleapis.com" async defer></script>
+</body>
+
+</html>
